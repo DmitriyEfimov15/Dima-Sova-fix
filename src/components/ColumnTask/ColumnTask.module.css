@@ -1,0 +1,60 @@
+.column__container {
+    flex: 1;
+}
+
+.column__box {
+    width: 100%;
+}
+
+.column__header {
+    background-color: #66594c;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border-left: 1px solid #fff;
+}
+
+.column__header:first, .column__content:first{
+    border-left: none;
+}
+
+.column__content {
+    display: flex;
+}
+
+.plan, .fact {
+    width: 50%;
+    text-align: center;
+}
+
+.plan__header, .fact__header {
+    color: #665A4D;
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.column__content {
+    border-left: 1px solid #fff;
+}
+
+.plan {
+    border-right: 1px solid #fff;
+}
+
+.content {
+    padding: 7px;
+    border-top: 1px solid #fff;
+}
+
+.empty {
+    height: 34px;
+}
+
+.content:first-child {
+    border-top:none;
+}
+
+.content:last-child {
+    height: 102px;
+}

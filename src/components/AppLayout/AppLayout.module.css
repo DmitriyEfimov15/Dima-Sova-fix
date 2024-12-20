@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e3dfda;
+}
+
+.main {
+    flex: 1;
+    width: 80%;
+    margin: auto;
+}

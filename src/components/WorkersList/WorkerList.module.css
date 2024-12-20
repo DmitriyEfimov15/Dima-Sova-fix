@@ -1,0 +1,12 @@
+.text p{
+    color: #665A4D;
+    font-size: 25px;
+}
+
+.worker__container {
+    margin-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}

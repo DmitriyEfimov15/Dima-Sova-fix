@@ -1,0 +1,19 @@
+.table {
+    width: 100%;
+    border: 3px solid #fff;
+    margin-top: 40px;
+}
+
+.table__header {
+    width: 100%;
+    padding: 10px;
+    background-color: #66594c;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.column__container {
+    display: flex;
+    border-top: 6px solid #fff;
+}

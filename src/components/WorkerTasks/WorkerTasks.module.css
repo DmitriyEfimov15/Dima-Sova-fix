@@ -1,0 +1,75 @@
+.loader__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: #665A4D;
+    font-size: 22px;
+}
+
+.info__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__container {
+    margin-top: 20px;
+}
+
+.indicators {
+    display: flex;
+}
+
+.indicators div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 6px;
+    padding: 10px;
+    color: #665A4D;
+}
+
+.done {
+    background-color: #C5E384;
+}
+
+.not__done {
+    background-color: #d69a81;
+}
+
+.other__day {
+    background-color: #ffe78f;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+}
+
+.yellowButton {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFE20D;
+    padding: 10px;
+    height: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellowButton:nth-child(2) {
+    padding: 10px 40px;
+}
+
+.yellowButton img {
+    width: 20px;
+}
