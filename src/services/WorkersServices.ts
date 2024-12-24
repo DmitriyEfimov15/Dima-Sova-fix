@@ -3,7 +3,7 @@ import { IWorker } from "../types/Iworker";
 
 export const workerAPI = createApi({
     reducerPath: "workerAPI",
-    baseQuery: fetchBaseQuery({baseUrl: "http://localhost:5000"}),
+    baseQuery: fetchBaseQuery({baseUrl: "http://localhost:5050"}),
     tagTypes: ['Worker'],
     endpoints: (build) => ({
         fetchAllWorkers: build.query<IWorker[], number>({

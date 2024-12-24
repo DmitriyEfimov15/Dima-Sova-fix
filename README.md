@@ -5,4 +5,4 @@ npm i
 
 npm run start 
 
-json-server db.json --port 5000
+json-server db.json --port 5050
