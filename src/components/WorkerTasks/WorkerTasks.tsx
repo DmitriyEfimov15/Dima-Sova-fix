@@ -77,8 +77,8 @@ const WorkerTasks: FC = () => {
                     <div className={classes.info__container}>
                         <div className={classes.indicators}>
                             <div className={classes.done}>сделаны по плану ({workers && id && countPlanTasks(workers[parseInt(id) - 1].tasks, 'true')})</div>
-                            <div className={classes.not__done}>сделаны в другой день ({workers && id && countPlanTasks(workers[parseInt(id) - 1].tasks, 'other')})</div>
-                            <div className={classes.other__day}>не сделаны ({workers && id && countPlanTasks(workers[parseInt(id) - 1].tasks, 'false')})</div>
+                            <div className={classes.other__day}>сделаны в другой день ({workers && id && countPlanTasks(workers[parseInt(id) - 1].tasks, 'other')})</div>
+                            <div className={classes.not__done}>не сделаны ({workers && id && countPlanTasks(workers[parseInt(id) - 1].tasks, 'false')})</div>
                         </div>
 
                         <div className={classes.toggle}>
